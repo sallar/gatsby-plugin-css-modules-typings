@@ -1,0 +1,18 @@
+{
+  "name": "gatsby-plugin-css-modules-typings",
+  "version": "1.0.0",
+  "description": "A gatsby plugin that adds typings for css modules automatically",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["gatsby","css","css-modules","typescript","gatsby-plugin","typings"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "typings-for-css-modules-loader": "^1.7.0"
+  },
+  "peerDependencies": {
+    "gatsby": ">2.0.0-alpha"
+  }
+}
