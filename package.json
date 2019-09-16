@@ -6,8 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["gatsby","css","css-modules","typescript","gatsby-plugin","typings"],
-  "author": "",
+  "keywords": [
+    "gatsby",
+    "css",
+    "css-modules",
+    "typescript",
+    "gatsby-plugin",
+    "typings"
+  ],
+  "author": "Sallar Kaboli <@sallar>",
   "license": "MIT",
   "dependencies": {
     "typings-for-css-modules-loader": "^1.7.0"
