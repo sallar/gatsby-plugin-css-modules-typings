@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-css-modules-typings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A gatsby plugin that adds typings for css modules automatically",
   "main": "index.js",
   "scripts": {
