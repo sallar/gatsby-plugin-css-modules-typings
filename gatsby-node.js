@@ -21,6 +21,10 @@ exports.onCreateWebpackConfig = ({
   plugins,
   actions,
 }) => {
+  if (process.env.NODE_ENV !== "development") {
+    return
+  }
+
   const config = getConfig()
   const cssRules = findCssRules(config)
 
