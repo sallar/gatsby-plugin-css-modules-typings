@@ -46,7 +46,7 @@ exports.onCreateWebpackConfig = ({
     })
   }
 
-  config.plugins.push(new webpack.WatchIgnorePlugin([/css\.d\.ts$/]))
+  config.plugins.push(new webpack.WatchIgnorePlugin({paths:[/css\.d\.ts$/]}))
 
   actions.replaceWebpackConfig(config)
 }
